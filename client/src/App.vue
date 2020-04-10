@@ -22,7 +22,7 @@ export default {
     return{
       username: "",
       socket:io("http://localhost:3000"),
-      message:[],
+      messages:[],
       users:[]
     }
   },
